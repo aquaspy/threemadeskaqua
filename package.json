@@ -1,0 +1,43 @@
+{
+  "name": "threemadeskaqua",
+  "version": "1.0.0",
+  "description": "A unnoficial threema desktop app",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^7.1.4",
+    "electron-builder": "^21.2.0"
+  },
+  "build": {
+    "asar": false,
+    "appId": "aquasp",
+    "linux": {
+      "target": [
+        "AppImage",
+        "snap"
+      ],
+      "category": "Game",
+      "synopsis": "A simple and fast laf launcher!",
+      "icon": "Icon/Icon.png",
+      "vendor": "aquasp",
+      "maintainer": "aquasp"
+    },
+    "win": {
+      "target": [
+        "NSIS",
+        "portable"
+      ],
+      "icon": "Icon/Icon.png"
+    }
+  },
+  "scripts": {
+    "test": "electron .",
+    "dist": "electron-builder"
+  },
+  "keywords": [
+    "threema",
+    "desktop"
+  ],
+  "author": "aquasp",
+  "license": "ISC"
+}
