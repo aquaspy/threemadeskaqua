@@ -1,7 +1,7 @@
 # DEPRECATED 
 
-This project won't be maintaned anymore. Please use the official threema launcher: https://threema.ch/en/download
-
+This project is not useful anymore and have security issues. Please use the official threema launcher: https://threema.ch/en/download
+Thanks!
 
 
 # threemadeskaqua
